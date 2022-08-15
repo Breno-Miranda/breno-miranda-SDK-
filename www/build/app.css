@@ -2158,7 +2158,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			background: url("assets/images/overlay.png");
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2203,7 +2203,7 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
+				background: url("assets/images/overlay.png"), url("assets/images/overlay.png");
 				opacity: 1.0;
 			}
 
@@ -2702,7 +2702,8 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/* background-image: url("assets/images/overlay.png"), url("../../assets/images/bg.jpg"); */
+		background-color: black;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2721,7 +2722,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 100%;
+			width: auto;
 		}
 
 		#header > .inner {
@@ -2755,7 +2756,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		margin: 1em 0 0 0;
+		    /* margin: 1em 0 0 0; */
+			padding: 0% 0% 0% 5%;
 	}
 
 		#footer .icons a {
@@ -2791,9 +2793,9 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		margin-left: 45%;
+		max-width: 40em;
+		padding: 4em 4em 4em 2em;
 		width: calc(100% - 35%);
 	}
 
@@ -3187,7 +3189,9 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/* background-image: url("assets/images/overlay.png"), url("../../assets/images/bg.jpg");
+				 */
+				 background-color: black;
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
